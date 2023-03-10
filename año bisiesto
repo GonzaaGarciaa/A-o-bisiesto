@@ -1,0 +1,7 @@
+def año_bisiesto(num):
+    if num % 4 == 0:
+        return ("Este año es bisiesto")
+    else:
+        return ("No es bisiesto")
+    
+print(año_bisiesto(2024))
